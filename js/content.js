@@ -1,6 +1,6 @@
 // content.js
 $(document).ready(function(){
-    $(".notices").append($("<div class='col-sm-12'></div>").append($("<img class='preloader' src='connect.gif'>")));
+    $(".notices").append($("<div class='col-sm-12 text-center'></div>").append($("<img class='preloader' src='assets/connect.gif'>")));
     var delay=1500; //1.5 second
     setTimeout(function() {
         $.get("http://210.212.85.155/", function(data, status){

@@ -2,18 +2,12 @@
   "manifest_version": 2,
   "name": "InfoConnect",
   "version": "0.1",
-  "background": {
-    "scripts": ["jquery-3.1.1.min.js", "fontAwesome.js", "content.js"]
-  },
   "permissions": [
    "http://210.212.85.155/",
-    "https://210.212.85.155/",
-    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
-    "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
-    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    "https://210.212.85.155/"
   ],
   "browser_action": {
-  "default_icon": "jss-logo.png",
+  "default_icon": "assets/jss-logo.png",
   "default_popup": "index.html"
   }
 }

@@ -1,0 +1,41 @@
+body {
+            min-width: 400px;
+            min-height:200px;
+        }
+        .notice-data {
+            padding: 3px 10px;
+        }
+        .notice-data:hover {
+            background-color: #cfcfcf;
+            cursor: pointer;
+        }
+        .link-col {
+            padding: 8px;
+        }
+        .jumbotron{
+            background-color: #271b3b;
+            padding: 5px;
+        }
+        .image {
+            height: 80px;
+        }
+        .title {
+            color : #a493d1;
+            font-size: 16px;
+            padding-bottom: 20px;
+        }
+        .preloader {
+            padding: 25px;
+            width:130px;
+        }
+        .new-notice,.link {
+            color: #2d2251;
+            text-decoration: none;
+        }
+        .link:hover {
+            color: #271b3b;
+            text-decoration: none;
+        }
+        .odd {
+            background-color: #f6f6f6;
+        }
