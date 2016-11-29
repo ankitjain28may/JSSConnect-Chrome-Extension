@@ -1,4 +1,5 @@
 // content.js
+var flag = 0;
 $(document).ready(function(){
     $(".notices").append($("<div class='col-sm-12 text-center'></div>").append($("<img class='preloader' src='assets/connect.gif'>")));
     var delay=1500; //1.5 second
@@ -24,5 +25,21 @@ $(document).ready(function(){
             }
         });
     }, delay);
+
+    $(".button").click(function() {
+        // $(".sidebar").toggle();
+        $(".sidebar").css({"width":"180px"});
+        if($(".sidebar-layer").hasClass("show"))
+        {
+            $(".sidebar-layer").hide();
+            $(".sidebar-layer").removeClass("show");
+            $(".sidebar").css({"width": 0});
+        }
+        else
+        {
+            $(".sidebar-layer").show();
+            $(".sidebar-layer").addClass("show");
+        }
+    });
 
 });
