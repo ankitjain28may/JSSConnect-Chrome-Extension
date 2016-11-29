@@ -79,3 +79,13 @@ body {
             z-index: 9;
             opacity: 0.5;
         }
+        .sidebar-icon img  {
+            width: 70px;
+            margin: 45px 0px 10px 0;
+            display: none;
+        }
+        .sidebar-name p {
+            color: #A493D1;
+            display: none;
+            font-size: 13px;
+        }

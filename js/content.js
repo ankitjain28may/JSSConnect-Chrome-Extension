@@ -32,12 +32,16 @@ $(document).ready(function(){
         if($(".sidebar-layer").hasClass("show"))
         {
             $(".sidebar-layer").hide();
+            $(".sidebar-icon img").hide();
+            $(".sidebar-name p").hide();
             $(".sidebar-layer").removeClass("show");
             $(".sidebar").css({"width": 0});
         }
         else
         {
             $(".sidebar-layer").show();
+            $(".sidebar-icon img").show();
+            $(".sidebar-name p").show();
             $(".sidebar-layer").addClass("show");
         }
     });
