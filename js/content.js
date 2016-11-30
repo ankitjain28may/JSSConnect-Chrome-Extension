@@ -59,7 +59,7 @@ $(document).ready(function(){
                     if(index >= 5)
                     {
                         // console.log(value);
-                        if(index%2==0)
+                        if(index%2!=0)
                             var col = $("<div></div>").addClass("col-sm-12 odd notice-data");
                         else
                             var col = $("<div></div>").addClass("col-sm-12 notice-data");
