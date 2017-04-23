@@ -1,13 +1,13 @@
 {
-  "manifest_version": 2,
-  "name": "InfoConnect",
-  "version": "0.1",
-  "permissions": [
-   "http://210.212.85.155/",
-    "https://210.212.85.155/"
-  ],
-  "browser_action": {
-  "default_icon": "assets/jss-logo.png",
-  "default_popup": "index.html"
-  }
+    "manifest_version": 2,
+    "name": "InfoConnect",
+    "version": "0.1",
+    "permissions": [
+        "http://192.168.0.8/",
+        "https://192.168.0.8/"
+    ],
+    "browser_action": {
+        "default_icon": "assets/jss-logo.png",
+        "default_popup": "index.html"
+    }
 }
