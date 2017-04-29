@@ -1,5 +1,5 @@
 // content.js
-var htp = "http://192.168.0.8/";
+var htp = "http://210.212.85.155/";
 var flag = 0;
 $(document).ready(function() {
     notices();
