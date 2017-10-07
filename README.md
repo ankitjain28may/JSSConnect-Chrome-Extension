@@ -1,6 +1,6 @@
 # JSSConnect-Chrome-Extension
 
-##Installation
+## Installation
 
 1- Download [zip file](https://github.com/ankitjain28may/JSSConnect-Chrome-Extension/archive/master.zip) or clone this repo in your local storage.
 
@@ -10,4 +10,4 @@
 
 4- Click on `Load unpacked extension` and load the downloaded folder.
 
-####Now it is installed in your chrome, Click on the extension and Cheers..!!!
+#### Now it is installed in your chrome, Click on the extension and Cheers..!!!
